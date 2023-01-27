@@ -53,7 +53,7 @@
       </v-btn>
 
       <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
+        <v-icon>mdi-filter</v-icon>
       </v-btn>
 
       <v-btn icon>
