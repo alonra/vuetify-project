@@ -31,7 +31,14 @@ export default new Vuex.Store({
       },
     ],
   },
-  getters: {},
+  getters: {
+    coaches(state) {
+      return state.coaches;
+    },
+    hasCoaches(state) {
+      return state.coaches && state.coaches.length > 0;
+    },
+  },
   mutations: {},
   actions: {},
   modules: {},
